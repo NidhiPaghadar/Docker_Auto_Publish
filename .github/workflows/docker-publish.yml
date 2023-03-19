@@ -20,6 +20,6 @@ jobs:
     - name: Push Docker image
       uses: docker/build-push-action@v2
       with:
-        context: ./Nidhi_Lab03
+        context: .
         push: true
         tags: nidhip1901/nidhip1901:latest
