@@ -8,7 +8,7 @@ namespace COMP306_Nidhi_Lab3.Controllers
     {
 
         [HttpGet(Name = "/")]
-        public String Get()
+        public String GetHealth()
         {
             return "Healthy";
         }
